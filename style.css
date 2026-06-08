@@ -23,12 +23,12 @@ header{
 }
 
 .logo{
-    position: relative;
+    position: fixed;
     z-index: 100000;
 }
 
 .logo img{
-    position: relative;
+    position: fixed;
     width:150px;
     top: -5px;
     height:auto;
