@@ -224,15 +224,3 @@ document.addEventListener("DOMContentLoaded", () => {
     elements.forEach(el => observer.observe(el));
 });
 
-const logo = document.getElementById("logo");
-const aboutSection = document.getElementById("about");
-
-window.addEventListener("scroll", () => {
-    const rect = aboutSection.getBoundingClientRect();
-
-    if (rect.top <= 100 && rect.bottom >= 100) {
-        logo.src = "logo.png";   // White background
-    } else {
-        logo.src = "logo-white.png";   // Dark background
-    }
-});
